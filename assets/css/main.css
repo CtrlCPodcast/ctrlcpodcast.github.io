@@ -4374,10 +4374,23 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 480px) {
+		/*@media screen and (max-width: 480px) {
 
 			#footer {
 				width: 100%;
+			}
+
+		}*/
+		@media screen and (max-width: 480px){
+			.contact section{
+				border-left: 0;
+				margin: 1rem 0 0 0;
+				padding-left: 0;
+				display: block;
+			}
+
+			.contact section:first-child {
+				margin-top: 0;
 			}
 
 		}
